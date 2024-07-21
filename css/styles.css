@@ -1,12 +1,12 @@
 
 
-.post {
+body {
     font-family: "Roboto", sens-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
 
-/* Обгортка section-1 */
+/* Обгортка */
 .logo {
     color: #4d5ae5;
     font-size: 18px;
@@ -14,7 +14,7 @@
     font-weight: 500;
     background-color: #fff;
     font-weight: 700;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
     
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
@@ -25,11 +25,11 @@
     line-height: 1.17;
     background-color: #fff;
         font-weight: 500;
-            letter-spacing: 0.02em;
+            letter-spacing: 0.03em;
             text-transform: uppercase;
                 font-family: "Raleway", sans-serif;
 }
-.header {
+.header > a {
     font-size: 16px;
     line-height: 1.5;
     color: #2e2f42;
@@ -37,19 +37,19 @@
     letter-spacing: 0.02em;
     background-color: #fff;
 }
-.header:hover {
+.header:hover > a {
     color: #404bbf;
 }
-.header:focus {
+.header:focus > a {
     color: #404bbf;
 }
 
-/* Контакти section-2 */
-.contacts {
+/* Контакти */
+.contacts > a {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
-    font-style: normal;
+font-style: normal;
     background-color: #fff;
 }
 
@@ -57,7 +57,7 @@
 .contacts:focus {
     color: black;
 }
-/* Основна частина section-3 */
+/* Основна частина section-1 */
 .section-main-first {
     background-color: #F4F4FD;
 }
@@ -85,7 +85,7 @@
 .button:focus {
     background-color: #4d5ae5;
 }
-/* На майбутнє для читалок та пошукових систем section-4 */
+/* На майбутнє для читалок та пошукових систем section-2 */
 
 .title-three {
     font-size: 20px;
@@ -102,7 +102,7 @@
     color: #434455;
     background-color: #fff;
 }
-/* Команда section-5 */
+/* Команда section-3 */
 
 .title-team {
 
@@ -125,39 +125,40 @@
     color: #434455;
     background-color: #fff;
 }
-/* section Portfolio section-6 */
+/* section Portfolio section-4 */
 .title-second {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2e2f42;
-    background-color: #2e2f42;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2e2f42;
 }
 
 .paragraph-portfolio {
-    font-weight: 500;
-    font-size: 20px;
-    color: #2e2f42;
-    background-color: #fff;
+font-weight: 500;
+font-size: 20px;
+ine-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+
 }
 
 .under-portfolio {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 
-    color: #434455;
-    background-color: #fff;
 }
-/* Додаткова інформація section-7 */
+/* Додаткова інформація footer */
 .logo-footer {
     font-size: 18px;
     line-height: 1.17;
     font-family: "Raleway", sans-serif;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    font-weight: 700;
     color: #4d5ae5;
     background-color: #2e2f42;
 }
@@ -168,6 +169,7 @@
     font-family: "Raleway", sans-serif;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    font-weight: 700;
     color: #f4f4fd;
     background-color: #2e2f42;
 }
