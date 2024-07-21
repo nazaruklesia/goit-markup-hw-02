@@ -43,7 +43,42 @@ color: #2e2f42;
     color: #404bbf;
 }
 
+.header-link-portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.header-link-portfolio:hover {
+    color: #404bbf;
+}
+
+.header-link-portfolio:focus {
+    color: #404bbf;
+}
+
+.header-link-contacts {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.header-link-contacts:hover {
+    color: #404bbf;
+}
+
+.header-link-contacts:focus {
+    color: #404bbf;
+}
+
 /* Контакти */
+.contacts {
+    font-style: normal;
+}
 .contacts-link {
 color: #434455;
 line-height: 1.5;
@@ -138,7 +173,7 @@ text-transform: capitalize;
     background-color: #fff;
 }
 /* section Portfolio section-4 */
-.title-second {
+.title-portfolio {
 font-size: 36px;
 line-height: 1.11;
 text-align: center;
